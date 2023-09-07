@@ -1,0 +1,55 @@
+
+.statemain{
+  background-color: black;
+}
+.statesub-main h1{
+
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+.statesub2-main2,.statebtn {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* State.css */
+.statebtn {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.startButton, .doneButton {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.startButton:hover, .doneButton:hover {
+  background-color: #2980b9;
+}
+
+.startButton:focus, .doneButton:focus {
+  outline: none;
+}
+
+.startButton {
+  margin-right: 10px;
+}
+
+.doneButton {
+  margin-left: 10px;
+}
+
+
+ 

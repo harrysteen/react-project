@@ -1,0 +1,19 @@
+.video {
+    
+    height: 500px;
+    
+    background-size: cover;
+    padding-top: 100px;
+   
+  }
+  
+.Aimain{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.historymain{
+  color: white;
+}
+  

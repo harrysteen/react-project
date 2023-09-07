@@ -1,0 +1,57 @@
+.backgroundimage2 h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+  }
+  
+  .Timg1,
+  .Timg2,
+  .Timg3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+  }
+  
+  .Timgf1,
+  .Timgf2,
+  .Timgf3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 600px;
+  }
+  
+  .Timg1 img,
+  .Timg2 img,
+  .Timg3 img {
+    transition: transform 0.3s; /* Add transition for smooth effect */
+  }
+  
+  .Timg1 img:hover,
+  .Timg2 img:hover,
+  .Timg3 img:hover {
+    transform: scale(1.1); /* Apply scale transform on hover */
+  }
+
+  .video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .startstop, button{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    border-radius: 2px;
+    background: none;
+    color: white;
+    
+    font-size: 20px;
+  
+  }

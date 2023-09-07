@@ -1,0 +1,63 @@
+ nav{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    height: 10vh;
+    position: fixed;
+    z-index: 999999999;
+    width: 100%;
+    background-color: black;
+    
+ }
+ 
+
+ 
+ 
+ .logo h1{
+
+   color: white;
+ }
+
+ .hamburger{
+
+    display: none;
+ }
+ .menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    font-family: 'Indie Flower', cursive;
+ }
+ .active{
+
+    font-size: 30px;
+    
+ }
+ .menu a {
+   margin-right: 30px;
+ }
+
+ 
+
+ @media (max-width:700px){
+
+    .hamburger{
+        display: block;
+    }
+
+    .menu{
+
+        width: 100%;
+        position: absolute;
+        height: 90vh;
+        top: 10vh;
+        left: -100%;
+        flex-direction: column;
+        gap: 30px;
+        
+    }
+
+ }

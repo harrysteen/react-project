@@ -1,0 +1,66 @@
+.faqsmain{
+    background-color: black;
+    color: white;
+   
+}
+.faqs-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.faqs-2, .faqs-3, .faqs-4 {
+    border: 2px solid white;
+    background-color: black;
+    display: flex;
+    height: 150px;
+    width: 1300px;
+    padding-left: 50px;
+
+}
+
+.faqs-2  img {
+
+  margin-left: 830px;
+  margin-top: 40px;
+}
+.faqs-3 img{
+  margin-left: 740px;
+  margin-top: 40px;
+}
+.faqs-4 img{
+    margin-left: 700px;
+    margin-top: 40px;
+}
+
+ 
+
+.faqs-2.expanded img,
+.faqs-3.expanded img,
+.faqs-4.expanded img {
+    transform: rotate(180deg); /* Rotate the arrow image */
+}
+
+ /* Add this CSS to your existing stylesheet */
+.footer{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 50px;
+}
+.footer button {
+    margin-bottom: 70px;
+    height: 50px;
+    width: 150px;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 7px;
+}
+
+.footer button:hover {
+    background-color: white;
+    color: black;
+}
+

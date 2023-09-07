@@ -1,0 +1,18 @@
+.main{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: black;
+    
+}
+ .AI img{
+
+    height: 400px;
+ }
+
+ .sub-main{
+    color: white;
+    padding-top: 150px;
+ }
